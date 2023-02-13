@@ -1,0 +1,333 @@
+Pasos para la creacion de la interfaz de usuario 
+
+	Form1
+	Text - Control de Acceso
+	Size - 948, 617
+	
+	PanelMenu
+	Backcolor 192, 0, 0
+	Location - 0, 0
+	Size - 243, 585
+	
+	PictureBoxLogo
+	Location - 26, 8
+	Size - 172, 132
+	BackColor
+	Imagen - luminisoft_LOGO
+
+	ButtonConexion
+	FlatStyle - Flat
+	Font - Arial Rouded MT, Negrita, 8
+	Forecolor - White
+	Location - 26, 145
+	Size - 225, 72
+	Imagen - Conexion_icon
+	
+	ButtonUser_data
+	FlatStyle - Flat
+	Font - Arial Rouded MT, Negrita, 8
+	Forecolor - White
+	Location - 34, 221
+	Size - 225, 57
+	Imagen - Porfile_user_icon
+	
+	ButtonRegister
+	FlatStyle - Flat
+	Font - Arial Rouded MT, Negrita, 8
+	Forecolor - White
+	Size - 205, 12
+	Location - 26, 291
+	Size - 225, 63
+	Imagen - Edit_user_icon
+	
+	PictureBoxselect
+	Location - -14, 158
+	Size - 37, 49
+	Imagen - Select_icon
+	
+	PanelConnection
+	color White
+	Location - 249, 34
+	Size - 674, 534
+	
+	
+	LabelStatus
+	Text - Estatus de Conexión: Desconectado
+	Font - Arial Rouded MT, Negrita, 8
+	Location - 248, 2
+	Size - 205, 12
+	
+	PictureBoxStatus
+	Size - 14, 13
+	Location - 451, 2
+	
+	LabelDateTime
+	Text - Time 00:00:00     Date 00  mm,  0000
+	Size - 205, 12
+	Location - 726, 2
+	
+	
+	PanelTopHeader
+	Color - 0, 70, 180
+	Location - 249, 20
+	Size - 674, 9
+	
+	ButtonScanPort
+	Color - WhiteSmoke
+	Font - Arial Rouded MT, Negrita, 8
+	ForeColor - 0, 70, 180
+	FlatStyle - Flat
+	Location - 10, 16
+	Size - 85, 25
+	Text - Puerto
+	
+	ComboBoxPort
+	DropDownStyle - DropDownList
+	Font - Arial Rouded MT, Negrita, 8
+	ForeColor - 0, 70, 180
+	Color - WhiteSmoke
+	Location - 100, 16
+	Size - 434, 21
+	
+	LabelBaudRate
+	Font - Arial Rouded MT, Negrita, 8
+	ForeColor - 0, 70, 180
+	Location - 538, 20
+	Size - 54, 12
+	
+	ComboBoxBaudRate
+	DropDownStyle - DropDownList
+	Font - Arial Rouded MT, Negrita, 8
+	ForeColor - 0, 70, 180
+	items 
+1200
+1400
+4800	
+9600
+14400
+19200
+38400
+57600
+115200
+
+	Location - 594, 16
+	Size - 68, 21
+	
+	ButtonConnect
+	FlatStyle - Flat
+	Font - Arial Rouded MT, Negrita, 8
+	Forecolor - 0, 70, 180
+	Text - Conectar
+	Location - 10, 53
+	Size - 651, 24
+	
+	
+	PanelUserData
+	color White
+	Location - 249, 34
+	Size - 674, 534
+	
+	GroupBoxImage
+	Location - 272, 2
+	Size - 156, 200
+	Text - Imagen y ID
+	
+	PictureBoxUserImage
+	Location - 14, 20
+	Size - 131, 142
+	SizeMode - Zoom
+	
+	
+	LabelID
+	Font - Arial Rouded MT, Negrita, 9
+	Location - 19, 163
+	Size - 69, 28
+	Text - ID : ________
+
+	GroupBoxDatailData
+	Location - 10, 208
+	Size - 651, 317
+	Text - Datos Detallados
+	
+	ButtonClear
+	FlatStyle - Flat
+	Font - Arial Rouded MT, Negrita, 8
+	Forecolor - 0, 70, 180
+	Location - 584, 287
+	Size - 63, 24
+	Text - Limpiar
+	
+	Label 
+	Nombre 
+	ID
+	Carrera 
+	Fecha y hora
+	
+	Label
+	:
+	
+	LabelNombre
+	Text - Esperando...
+	Font - Arial Rouded MT, Negrita, 12
+	
+	LabelID2
+	Text - Esperando...
+	Font - Arial Rouded MT, Negrita, 12
+	
+	LabelCarrera
+	Text - Esperando...
+	Font - Arial Rouded MT, Negrita, 12
+	
+	LabelHora
+	Text - Esperando...
+	Font - Arial Rouded MT, Negrita, 12
+	
+	LabelHora
+	Text - Esperando...
+	Font - Arial Rouded MT, Negrita, 11
+	
+	
+	PanelUserRegistration
+	color White
+	Location - 249, 34
+	Size - 674, 534
+	
+	Label
+	
+	Nombre Location - 7, 21
+	
+	Carrera Location - 7, 58
+	
+	TextBoxNombre
+	Location - 81, 22
+	Size - 590, 20
+	CharacterCasing - Upper
+	
+	TextBoxCarrera
+	Location - 81, 58
+	Size - 590, 20
+	CharacterCasing - Upper
+	
+	ButtonSave
+	FlatStyle - Flat
+	Font - Arial Rouded MT, Negrita, 8
+	Forecolor - 0, 70, 180
+	Location - 7, 188
+	Size - 85, 40
+	Text - Guardar
+	
+	
+	ButtonClearForm
+	FlatStyle - Flat
+	Font - Arial Rouded MT, Negrita, 8
+	Forecolor - 0, 70, 180
+	Location - 111, 188
+	Size - 85, 40
+	Text - Borrar Formulario
+	
+	GroupBoxID
+	Location - 432, 133
+	Size - 116, 98
+	Text - Lectura ID
+	
+	ButtonScannID
+	FlatStyle - Flat
+	Font - Arial Rouded MT, Negrita, 8
+	Forecolor - 0, 70, 180
+	Location - 6, 19
+	Size - 104, 40
+	Text - Escanear ID
+	
+	LabelGETID
+	Location - 4, 72
+	Size - 20, 14
+	Text - ID
+	
+	Labelplaceid
+	Location - 26, 72
+	Size - 56, 16
+	Text - ________
+	
+	GroupBoxImagen
+	Location - 552, 133
+	Size - 92, 98
+	Text - Imagen
+	
+	PictureBoxImageInput
+	BorderStyle - fixed single
+	Location - 4, 17
+	Size - 83, 77
+	SizeMode - Zoom
+	
+	GroupBoxRegistro
+	Location - 2, 236	
+	Size - 665, 288
+	Text - Vista de Registro
+	
+	Label
+	Location - 4, 15	
+	Text - Busque aquí:
+	
+	TextBoxBusqueda
+	Location - 122, 15	
+	Size - 381, 20
+	
+	CheckBoxByName
+	Checked - True
+	CheckState - Checked
+	Location - 530, 12	
+	Size - 130, 17
+	Text - Busqueda por nombre
+	
+	CheckBoxByID
+	Location - 530, 33	
+	Size - 106, 17
+	Text - Busqueda por ID
+	
+	DataGridView1
+	Desactivar todas las opciones
+	AutoSizeColumnsMode - Fill
+	Location - 4, 36
+	Size - 526, 248
+	SelectionMode - FullRowSelect
+	
+	PictureBoxImagePreview
+	Location - 542, 66
+	Size - 113, 108
+	BorderStyle - FixedSingle
+	
+	PanelReadingTagProces
+	Location - 0, 0
+	Size - 227, 147
+	Visible - False
+	
+	label 
+	Text - Leyendo etiqueta ...
+	Location - 2, 4
+	Font - Arial Rounded MT Bold, 9pt
+	
+	ButtonCloseReadingTag
+	Location - 206, 2
+	Size - 19, 19
+	
+	PictureBox
+	Location - 93, 42
+	Size - 60, 65
+	SizeMode - Zoom
+	
+	TimerTimeDate
+	Enabled - True
+	
+	ContextMenuStrip1
+	
+	
+	
+	
+	TimerSerialIn
+	Enabled - False
+	Interval 1000
+	
+	SerialPort1
+	BaudRate 9600
+	
+	OpenFileDialog1

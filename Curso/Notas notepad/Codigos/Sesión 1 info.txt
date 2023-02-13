@@ -1,0 +1,35 @@
+El modulo RFID RC522 consta de un modulo lector y una tarjeta o llavero que podra leer
+RFID Identificacion por radio frecuancia, tanto la tarjeta como el llavero tienen un circuito y una antena
+interior que permite leer las ondas de radio emitidas por el modulo lector dando como resultado que este unico podra identificar de forma unica a la tarjeta
+Este sistema es util para sistemas de comtrol de acceso. 
+
+Conecciones con Arduino uno 
+MÓDULO 		UNO			NOMBRE
+SDA 		10			SLIDE SELECT COMUNICACION POR SPI El SPI permite la comunicación dúplex entre un dispositivo AVR y los dispositivos periféricos o entre varios microcontroladores
+SCK			13			SERIAL CLOCK  Es el pulso que marca la sincronización. Con cada pulso de este reloj
+MOSI		11			MASTER OUT SLAVE IN TRansmite los datos del maestro al esclavo 
+MISO		12			MAATER IN SLAVE OUT Transmite los datos del esclavo al maestro 
+IRQ			-			IRQ interrumpe el curso de ejecucion actual 
+GMD			GMD			Cable a tierra de ARDUINO 
+RST			9			RESET Del dispositivo
+3.3			3.3V		Cable de alimentacion para el modulo lector 
+
+
+Base de datos plana
+Es un conjunto centralizado y estructurado de datos almacenados en un
+sistema informático
+
+Proporciona facilidades para recuperar, agregar, modificar y
+borrando los datos cuando sea necesario
+
+Proporciona facilidades para transformar los datos recuperados en útiles
+información
+
+La base de datos va a estar alamacenada en una o varias tablas con filas y columnas 
+Una tabla es una coleccion de registros 
+una fila es llamada una instacia o registro 
+una columna se refiere a los atributos que posee la tabla 
+
+modelo plano 
+un modelo plano es una base de datos diseñado apartir de una sola tabla 
+usualmente son en forma de texto plano donde cada linea tiene un registro 

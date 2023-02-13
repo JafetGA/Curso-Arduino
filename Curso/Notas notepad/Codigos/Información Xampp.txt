@@ -1,0 +1,37 @@
+https://youtu.be/uZrrtTuWKfk
+
+1- EN XAMPP ABRIR EL EXOPLORER 
+2- EN LA CARPETA HTDOCS BORRAR TODO LO QUE ESTE EN EL INTERIOR DE ELLA 
+3- BUSCAR LA CAPRPETA QUE DICE PHPMYADMIN
+4- BUCAR EL ARCHIVO CONFIG.INC
+5- ABRIMOS EL ARCHIVO CON UN EDITOR DE TEXTO (NOTEPAD)
+6- BUSCAMOS LA LINEA 19 O LA QUE DICE AUTH TYPE 
+7- CAMBIAMOS EL TIPO POR COOKIE
+8- REINICIAMOS EL SERVIDOR 
+9- LA PAGINA PEDIRA UN INICIO DE SESION SIN CONTRASEÑA
+10- NOS VAMOR AL APARTADO DE CUENTAS DE USUARIOS 
+11- UBICAMOS ROOT LOCALHOST Y EDITAMOS PRIVILEGIOS
+12- CAMBIAMOS CONTRASEÑA EN EL APARTADO CAMBIO DE CONTRASEÑA 
+13- ESCRIBIR LA CONTRASEÑA EN EL ARCHIVO CONFIG.INC
+14- AHORA EL PROGRAMA PEDIRA SIEMPRE LA CONTRASEÑA PARA INGRESAR 
+
+	Creando una base de datos 
+
+https://youtu.be/tHoBYIBx2zs
+
+información importante:
+El nombre de la base de datos y de la tabla puede ser el que sea importante recordar el nombre
+son 5 columnas 
+
+#	Nombre	Tipo			Cotejamiento			Nulo	Predeterminado	 		Atributos
+
+1	Nombre	varchar(100)	latin1_spanish_ci			no
+2	ID (Pk) 	varchar(20)	      latin1_spanish_ci			no
+3	Imagen	longblob							no
+4	Hora	      timestamp			   			    	no	current_timestamp()		ON UPDATE CURRENT_TIMESTAMP()
+5	Carrera	varchar(30)	      latin1_spanish_ci			no
+
+
+
+
+	
